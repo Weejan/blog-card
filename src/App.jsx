@@ -1,5 +1,12 @@
+import BlogList from "./components/blogList";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-300">Hello world!</h1>
+    <div>
+      <h1 className="font-bold text-6xl text-center underline underline-offset-[20px] mb-10">
+        Blog Daily
+      </h1>
+      <BlogList />
+    </div>
   );
 }
