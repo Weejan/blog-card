@@ -52,7 +52,7 @@ export default function BlogList() {
     },
   ];
   return (
-    <div>
+    <div className=" content-center items-center grid grid-cols-4 max-xl:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1">
       {data.map((blog, index) => (
         <Blog key={index} blog={blog} />
       ))}
